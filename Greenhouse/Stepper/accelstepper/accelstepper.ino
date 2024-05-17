@@ -1,3 +1,5 @@
+// Homes motor to the left until switch. Able to type 1-10 in serial monitor and moves the motor to that specific plant position.
+
 // Defines pins
 #define stepPin 3
 #define dirPin 2
@@ -18,7 +20,7 @@ int currentPos = 0;
 bool motorMoving = false;
 
 // Map input positions (1-10) to target steps
-const int positionMap[] = {2000, 4000, 6000, 8000, 10000, 12000, 14000, 16000, 18000, 20000};
+const int positionMap[] = {2000, 4000, 6000, 8000, 10000, 12000, 14000, 16000, 18000, 20000}; // 1-10 step positions     TUNE THESE
 
 void setup() {
   // Sets the pins as outputs or inputs

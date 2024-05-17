@@ -1,5 +1,9 @@
+# MAKES A grid on an image and computes the amount of green in each. When closed, also displays a green mask to show what it sees.
+
 import cv2
 import numpy as np
+
+
 
 # Load the image
 image = cv2.imread(r'c:\Users\MakerSpaceAdmin\Downloads\Greenhouse Photos\PXL_20240404_141008371.jpg')  # Replace 'your_image.jpg' with the path to your image
